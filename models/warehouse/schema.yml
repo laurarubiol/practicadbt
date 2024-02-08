@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: dim_club_member_status
+    description: the id of each club member and the status of their subscriptions
+    columns:
+      - name: club_member_status
+        description: status of each customer's subscription
+        tests:
+          - accepted_values:
+              values: ['ACTIVE', 'SIN STATUS', 'PRE-CREATE', 'LEFT CLUB', 'Unknown']

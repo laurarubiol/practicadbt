@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: practica 
+    schema: dbt_raw
+    tables:
+      - name: customers
+      - name: articles
+      - name: transactions
+      - name: uszips2
