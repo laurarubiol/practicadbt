@@ -9,3 +9,5 @@ models:
         tests:
           - accepted_values:
               values: ['ACTIVE', 'SIN STATUS', 'PRE-CREATE', 'LEFT CLUB', 'Unknown']
+  - name: dim_customer_age
+    description: age and age range of each customer
